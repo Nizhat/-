@@ -1,0 +1,12 @@
+<div>
+    <h3>Добавить студентов</h3>
+    <div><input type = "text" list = "groupsList" ng-model = "group" class = "dropDownList"></div><br>
+<div><input type="text" ng-model="studSurname" placeholder="Фамилия студента"/></div>
+<div><input type="text" ng-model="studName" placeholder="Имя студента"/></div>
+<div><input type="text" ng-model="studKurs" placeholder="Курс"/></div>
+<div><input type="text" ng-model="studGpa" placeholder="GPA"/></div>
+
+
+<button ng-click="addNewStudent()">Добавить студента</button>
+<datalist id = "groupsList"></datalist>
+</div><br>
